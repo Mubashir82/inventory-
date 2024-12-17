@@ -179,6 +179,9 @@ class InvoiceController extends Controller
             foreach ($request->selling_qty as $key => $value) {
                 $invoice_details = InvoiceDetail::where('id',$key)->first();
 
+                $invoice_details->status = '1';
+                $invoice_details->save();
+                    
                 $product = Product::where('id',$invoice_details->product_id)->first();
                 $product->quantity = ((float)$product->quantity) - ((float)$request->selling_qty[$key]);
                 $product->save();     
