@@ -127,7 +127,7 @@
                                                 </thead><!-- end thead -->
                                                 <tbody>
                                                     <tr>
-                                                        <td><h6 class="mb-0">Mubashir Imtiaz</h6></td>
+                                                        <td><h6 class="mb-0">Dan Martin</h6></td>
                                                         <td>Senior Laravel Developer</td>
                                                         <td>
                                                             <div class="font-size-13"><i class="ri-checkbox-blank-circle-fill font-size-10 text-success align-middle me-2"></i>Active</div>
